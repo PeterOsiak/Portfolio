@@ -1,0 +1,176 @@
+/***************
+GENERAL SETTING
+***************/
+
+* html, body {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+h3 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+img {
+    height: auto;
+    width: 100%;
+}
+
+.content {
+    max-width: 100%;
+}
+
+.content h4 {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.row {
+    margin: 25px;
+}
+
+footer {
+    height: 45px;
+    background-color: #010126;
+    color: #f2f2f2;
+}
+
+body .jumbotron {
+    font-family: 'Lato', sans-serif;
+    background-color: #010126;
+    background-image: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, 0.8));
+    color: #E4E1E1;
+    border-radius: 0;
+}
+
+
+/***************
+NAVBAR
+***************/
+.jumbotron .navbar {
+/*    left: 2%;*/
+    padding: 0;
+}
+
+.jumbotron .bg-light {
+    background-color: transparent!important;
+}
+/*
+
+.jumbotron .navbar-light .navbar-nav .nav-link.active   {
+    color: #dbd0e8;
+}
+*/
+/*
+
+.jumbotron .navbar-light .navbar-nav .nav-link {
+    color: #ff002e;
+}
+*/
+/*
+
+.jumbotron .navbar-light .navbar-nav .nav-link:hover {
+    color: #ff002e;
+}
+*/
+
+.jumbotron .navbar-light .navbar-nav .nav-link:visited {
+    color: #ff002e;
+}
+
+.navbar-expand-lg .navbar-nav {
+    -ms-flex-direction: row;
+    flex-direction: row;
+    text-transform: uppercase;
+}
+
+/***************
+HEADER
+***************/
+
+.jumbotron .display-4 {
+    font-size: 5rem;
+    letter-spacing: 10px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .7rem;
+    padding-left: .6rem;
+    letter-spacing: 3px;
+    font-size: 1.1rem;
+    margin-right: 5px;
+}
+
+#name {
+    letter-spacing: 10px;
+    font-size: 2rem;
+    color: #010126;
+    text-shadow: 1px -1px 2px #f2f2f2;
+}
+
+.jumbotron .lead {
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.header{
+    margin: auto;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.intro {
+    display: block;
+    position: relative;
+    top: 54%;
+}
+
+.my-4 {
+    border-top: 1px solid rgba(255,255,255,.7);
+    max-width: 60%;
+    margin-left: 0px;
+}
+
+
+/***************
+SOCIAL MEDIA
+***************/
+
+.title {
+    text-align: center;
+    margin: 60px auto 20px auto;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+/***************
+DISPLAY
+***************/
+
+.horizontal {
+    margin: 0px auto 20px auto;
+}
+
+/***************
+FOOTER
+***************/
+
+footer p{
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
