@@ -1,0 +1,144 @@
+/* SCREEN SIZE UP TIL 1200px */
+
+@media only screen and (max-width: 1199px) {
+       
+/***************************
+HEADER
+***************************/
+    
+    .intro {
+        top: 43%;
+        text-align: left;
+    }
+}
+
+/* SCREEN SIZE UP TIL 768px */
+@media only screen and (max-width: 768px) {
+    
+       
+/**************************
+NAVBAR
+**************************/
+    
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: .7rem;
+    }
+    
+    ul .nav-link {
+        display: block;
+        padding: .2rem 1rem;
+    }
+    
+     
+/***************************
+HEADER
+***************************/
+    
+   .jumbotron .display-4 {
+    font-size: 455%;
+    letter-spacing: 9px;
+    } 
+    
+    .intro {
+        top: 25%;
+        text-align: center;
+    }
+    
+    .my-4 {
+        margin: auto;
+    }
+    
+}
+
+/* SCREEN SIZE UP TIL 575px */
+@media only screen and (max-width: 575px) {
+    
+    
+/***************************
+HEADER
+***************************/     
+
+   .jumbotron .display-4 {
+        font-size: 300%;
+        letter-spacing: 7px;
+    } 
+    
+
+    #name {
+        letter-spacing: 4px;
+    }
+
+    
+/****************************
+PRINT
+****************************/
+
+    .display .col-md-2 {
+        position: relative;
+        width: 45%;
+        margin: auto;
+        padding: 0 15px;
+    }
+}
+
+
+
+/* SCREEN SIZE UP TIL 440px */
+@media only screen and (max-width: 440px) {
+    
+     
+/****************************
+GENERAL
+****************************/
+    
+    body .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .title .main-heading {
+        font-size: 2rem;
+    }
+    
+/****************************
+HEADER
+****************************/
+    
+   .jumbotron .display-4 {
+       font-size: 250%;
+       letter-spacing: 6px;
+       font-weight: 700;
+    } 
+    
+    .jumbotron .lead {
+        font-size: .8rem;
+        font-weight: 300;
+        margin-top: 1rem;
+    }
+    
+    
+    .intro {
+        top: 25%;
+        text-align: center;
+    }
+
+    .my-4 {
+        margin: auto;
+        max-width: 35%;
+        
+    }
+
+    
+/****************************
+PRINT
+****************************/
+
+    .display .col-md-2 {
+        position: relative;
+        width: 40%;
+        margin: auto;
+        padding: 0 15px;
+    }
+}
+
+
