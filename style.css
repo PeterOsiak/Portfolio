@@ -99,6 +99,89 @@ footer p {
     outline:0;
 }
 
+jumbotron .img-link {
+    cursor: pointer;
+}
+
+
+jumbotron .img-link:hover {
+    border: 5px solid blue;
+}
+
+
+/***************
+OVERLAY EFFECT
+***************/
+
+
+.overlay-container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+    left: 50%;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transition: .5s ease;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.overlay-container:hover .image {
+    opacity: 0.1;
+}
+
+.overlay-container:hover .middle {
+    opacity: 1;
+}
+
+
+.text {
+    background-color: rgba(1, 1, 38, .8);
+    border: none;
+    color: #F5F6FF;
+    font-size: .8rem;
+    font-weight: 400;
+    padding: .8rem 1.7rem;
+    text-transform: uppercase;
+    transition: .5s ease;
+}
+
+.text:hover {
+    background-color: rgba(245, 246, 255, .4);
+    border: 1px solid rgba(1, 1, 38, .8);
+    color: rgb(1, 1, 38);
+    cursor: pointer;
+    font-weight: 400;
+    transition: .5s ease;
+}
+
+.text:focus {
+    outline: 0;
+}
+
+.middle a {
+    text-decoration: none;
+}
+
+.middle a:hover {
+    color:  rgba(1, 1, 38, .8);
+    text-decoration: none;
+    transition: .5s ease;
+}
+
 /***************
 COLUMNS
 ***************/
