@@ -7,14 +7,25 @@
     <link rel="stylesheet" type="text/css" media="all" href="queries.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-<!--    <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <meta http-equiv="Cache-Control" content="max-age=200">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-65369145-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-65369145-1');
+</script>
 </head>
 <body>
     <!-- HEADER -->
     <div class="jumbotron header">
         <!-- NAVBAR -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top" id="start">
             <div class="nav-container dropdown">
                 <button class="navbar-toggler dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-haspopup="true" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon dropdown-item-text"></span>
@@ -23,7 +34,7 @@
                     <ul class="navbar-nav ml-auto">
 <!--                        <li><i class="icon ion-ios-document"></i></li>-->
                         <li class="nav-item">
-                            <a class="nav-link dropdown-item" href="#website">WEBSite</a>
+                            <a class="nav-link dropdown-item" href="#website">WEB layouts</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link dropdown-item" href="#social">social media</a>
@@ -38,11 +49,13 @@
                 </div>
             </div>
         </nav>
+        <!-- BUTTON -->
+        <a href="#start"><button id="scroll-btn" style="display: block;"><i class="icon ion-ios-arrow-up"></i></button></a>
         <!-- INTRO -->
         <div class="intro">
             <h1 class="display-4">Portfolio</h1>
             <h1 id="name">Piotr osiak</h1>
-            <p class="lead">This is the showcase of some of my graphic projects. Mainly for social media, display campaigns and print.<br> Portfolio includes also some of the websites I've made using mostly HTML5/CSS3.</p>
+            <p class="lead">This is the showcase of some of my graphic projects. Mainly for social media, display campaigns and print.<br> Portfolio includes also some of the websites and layouts I've made using mostly HTML5/CSS3.</p>
             <hr class="my-4">
         </div>
     </div>
@@ -50,26 +63,35 @@
         
     <!-- WEBSITE -->
     <div class="title" id="website">
-        <h1 class="main-heading">Website</h1>
+        <h1 class="main-heading">Web Layouts</h1>
     </div>
       <div class="row" >
-        <div class="col-xl-6 overlay-container">
+        <div class="col-xl-4 overlay-container">
           <img class="img-fluid image" src="content/websites/chester.jpg" alt="Chesters website">
             <div class="middle">
-                <a href="https://github.com/PeterOsiak/Chester-s-Website">
-                    <button class="text">Check on github</button>
+                <a href="https://myresume.cba.pl/captain-claw/" target="blank">
+                    <button class="text">Check the website</button>
                 </a>
             </div>
         </div>
-        <div class="col-xl-6 overlay-container">
-           <img class="img-fluid image" src="content/websites/mile.jpg" alt="Milomierz main page">
+        <div class="col-xl-4 overlay-container">
+           <img class="img-fluid image" src="content/websites/seatours.jpg" alt="Sea Tours header">
             <div class="middle">
-                <a href="https://github.com/PeterOsiak/milomierzKanona">
-                    <button class="text">Check on github</button>
+                <a href="https://myresume.cba.pl/sea-tours/" target="blank">
+                    <button class="text">Check te website</button>
                 </a>
             </div>
         </div>
+         <div class="col-xl-4 overlay-container">
+               <img class="img-fluid image" src="content/websites/sc_header.jpg" alt="SC web layout" target="_blank">
+               <div class="middle">
+                <a href="https://myresume.cba.pl/portfolio/content/websites/sc_layout.jpg" alt="sc web layout in hi-res" target="blank">
+                    <button class="text">Check the project</button>
+                </a>
+            </div>
+          </div>
       </div>
+      
     </div>
     
     <!-- SOCIAL MEDIA -->
@@ -100,7 +122,7 @@
                 <img class="img-fluid" src="content/socialmedia/5.jpg" alt="tv">
             </div>
             <div class="col-lg-3">
-                <img class="img-fluid" src="content/socialmedia/6.jpg" alt="FB post template one">
+                <img class="img-fluid" src="content/socialmedia/14.jpg" alt="FB post template one">
             </div>
             <div class="col-lg-3">
                 <img class="img-fluid" src="content/socialmedia/7.jpg" alt="FB post template two">
@@ -120,7 +142,7 @@
                <img class="img-fluid" src="content/socialmedia/10.jpg" alt="instagram contest template">
             </div>
             <div class="col-lg-3">
-              <img class="img-fluid" src="content/socialmedia/Valentines_08.gif" alt="instagram gif">
+              <img class="img-fluid" src="content/socialmedia/Valentines_08_small.gif" alt="instagram gif">
             </div>
             <div class="col-lg-3">
                <img class="img-fluid" src="content/socialmedia/13.jpg" alt="instagram post">
@@ -221,13 +243,14 @@
             </div>
       </div>
         <footer>
-            <p>&copy; Piotr Osiak | 2019</p>
+            <p>&copy; Piotr Osiak |&nbsp; 2019&nbsp;</p>
             
         </footer>
     </div>
+    <!-- JAVSCRIPT -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-    
+    <script src="script.js"></script>
     </body>
 </html>

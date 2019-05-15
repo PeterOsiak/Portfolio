@@ -191,6 +191,15 @@ COLUMNS
     padding-right: 0;
 }
 
+.row {
+    justify-content: center;
+}
+
+.sc {
+    margin: 1rem auto;
+    width: 100%;
+}
+
 /***************
 NAVBAR
 ***************/
@@ -201,6 +210,7 @@ NAVBAR
 a {
     cursor: pointer;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 .jumbotron .dropdown-menu {
@@ -211,6 +221,11 @@ a {
 .navbar-dark .navbar-nav .nav-link:hover {
     background-color: transparent;
 }
+
+.navbar-dark .navbar-toggler {
+    border: none;
+}
+
 
 /***************
 HEADER
@@ -299,8 +314,35 @@ PRINT
 FOOTER
 ***************/
 
-footer p{
+footer {
+    color: rgba(255,255,255,.5);
     font-weight: 400;
-    padding: 10px;
+    letter-spacing: 3px;
+    padding: .7rem 1.2rem;
     text-transform: uppercase;
+   
+}
+
+
+/***************
+SCROLL BUTTON
+***************/
+
+#scroll-btn {
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: fixed;
+    right: 2%;
+    top: 5%;
+    z-index: 99;
+}
+
+.ion-ios-arrow-up {
+    color: #fff;
+    display: block;
+    margin: 0;
+    font-size: 2.6rem;
+    text-shadow: 0 2px 4px rgba(0,0,0, .3);
 }
