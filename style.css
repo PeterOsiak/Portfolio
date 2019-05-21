@@ -282,6 +282,16 @@ HEADER
 }
 
 /***************
+WEB LAYOUT
+***************/
+
+.img-fluid {
+    height: 100%!important;
+    display: block;
+    object-fit: cover;
+}
+
+/***************
 SOCIAL MEDIA
 ***************/
 
